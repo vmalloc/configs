@@ -1,5 +1,5 @@
 #! /bin/bash -ex
 
-ln -s ~+/tmux/.tmux.conf ~/
-ln -s ~+/X11/.Xmodmap ~/
-ln -s ~+/zsh/.zshrc ~/
+ln -sf ~+/tmux/.tmux.conf ~/
+ln -sf ~+/X11/.Xmodmap ~/
+ln -sf ~+/zsh/.zshrc ~/
